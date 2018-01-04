@@ -8,7 +8,7 @@ app.controller('InicioCtrl', [
         $scope.prueba = 'prueba';
   
         $scope.vamo = function(){
-            // $state.go('uno');
             console.log(dialog.showOpenDialog())
+            $state.go('uno');
         };
     }]);

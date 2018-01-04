@@ -14,32 +14,9 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             .state('uno', {
                 url: '/uno',
                 templateUrl: `${__dirname}/views/uno.html`,
-                controller: 'UnoCtrl',
-                controllerAs: 'uno_ctrl'
+                controller: 'DosCtrl',
+                controllerAs: 'dos_ctrl'
             })
 
             ;
 });
-
-/*
-app.controller('InicioCtrl', [
-    '$scope',
-    '$http',
-    '$state',
-    function ($scope, $http, $state) {
-        $scope.prueba = 'prueba';
-        
-        
-        $scope.vamo = function(){
-            $state.go('uno')
-        };
-    }]);
-
-app.controller('UnoCtrl', [
-    '$scope',
-    '$http',
-    function ($scope, $http) {
-        $scope.prueba = 'UNO';
-        
-    }]);
-*/

@@ -1,7 +1,7 @@
-app.controller('UnoCtrl', [
+app.controller('DosCtrl', [
     '$scope',
     '$http',
     function ($scope, $http) {
-        $scope.prueba = 'UNO';
+        $scope.prueba = 'Controlador DOS';
         
     }]);
