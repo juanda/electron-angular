@@ -21,7 +21,7 @@ git clone https://github.com/juanda/electron-angular.git
 cd electron-angular
 # Install dependencies for main process
 npm install
-# Insntall dependencies for rendere process
+# Install dependencies for renderer rprocess
 cd renderer
 bower install
 
@@ -30,6 +30,9 @@ cd ..
 npm start
 ```
 
+The management of the main process is made with npm (package.json), while
+the renderer process is managed with bower (renderer/bower.json). This way 
+I can work as I use to do when developping web apps.
 
 ## Resources for Learning Electron
 
