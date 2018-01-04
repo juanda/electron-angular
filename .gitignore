@@ -1,0 +1,4 @@
+nbproject/
+node_modules/
+renderer/bower_components/
+.vscode/
